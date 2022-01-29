@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 
 """
-contain state class
+Module amenity
 """
 
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
+    """Class Amenity"""
     name = ''

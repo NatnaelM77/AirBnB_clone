@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 
 """
-contain state class
+Module state
 """
 
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
+    """Class State"""
     name = ''

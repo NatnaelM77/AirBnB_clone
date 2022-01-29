@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 
 """
-Containe User class
+Module user
 """
 
 from models.base_model import BaseModel
 
 class User(BaseModel):
-    """user class"""
+    """Class User"""
     email = ''
     password = ''
     first_name = ''
