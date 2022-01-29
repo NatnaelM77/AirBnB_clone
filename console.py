@@ -8,12 +8,11 @@ import cmd
 
 
 class HBNBCommand(cmd.Cmd):
-    """Class HBNBCommand"""
+    """Class HBNBCommand
+    Attributes:
+        prompt (str): The command prompt.
+    """
     prompt = '(hbnb) '
-
-    def __init__(self, completekey='tab', stdin=None, stdout=None):
-        """init method"""
-        super().__init__(completekey, stdin, stdout)
 
     def do_quit(self, arg):
         """Quit command to exit the program"""
