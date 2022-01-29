@@ -1,10 +1,13 @@
 # AirBnb_clone
 
-![image](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220129%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220129T104552Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=87f36e4f8163424a49fc137c54782a0a1dc77d5dd0d7def00157031249ec824c)
+![hbnb logo](https://assets.stickpng.com/images/580b57fcd9996e24bc43c513.png)
 
 ## General info
 The goal of AirBnB project is to eventually deploy our server a simple copy 
 of the AirBnB Website(HBnB).
+
+## Perquisites
+* Python3
 
 ## Technologies
 Project is created with:
