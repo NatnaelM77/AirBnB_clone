@@ -1,6 +1,6 @@
 # AirBnb_clone
 
-![hbnb logo](https://assets.stickpng.com/images/580b57fcd9996e24bc43c513.png)
+![hbnb logo](hbnb.png)
 
 ## General info
 The goal of AirBnB project is to eventually deploy our server a simple copy 
