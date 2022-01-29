@@ -16,15 +16,15 @@ class HBNBCommand(cmd.Cmd):
         super().__init__(completekey, stdin, stdout)
 
     def do_quit(self, arg):
-        """exit the program"""
+        """Quit command to exit the program"""
         return True
 
     def do_EOF(self, arg):
-        """exit the program"""
+        """Quit console"""
         return True
 
     def emptyline(self):
-        """an empty line do nothing"""
+        """emptyline. Do nothing"""
         return False
 
 
