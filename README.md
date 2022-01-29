@@ -10,7 +10,7 @@ Project is created with:
 * Json
 
 ## Command Interpreter
-### Installation
+### Setup
 ```commandline
 git clone https://github.com/NatnaelM77/AirBnB_clone.git
 cd AirBnB_clone
@@ -67,4 +67,4 @@ quit
 ```
 
 ##### Author
-* natnaelmehari77@gmai.com natnael mehari
+* Natnael Mehari [Github](https://github.com/NatnaelM77/)
