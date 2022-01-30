@@ -8,17 +8,24 @@ import uuid
 import models
 from datetime import datetime
 
+
 class BaseModel:
     """Class BaseModel"""
 
     def __init__(self, *args, **kwargs):
-        """Initalize"""
+        """Initialize a new BaseModel
+
+        Args:
+            *args (any): Unused
+            **kwargs (dict): Key/value pairs of attributes.
+        """
+        time_format = '%Y-%m-%dT%H:%M:%S.%f'
         if kwargs:
             for key, value in kwargs.items():
                 if key != '__class__':
                     if key == 'created_at' or key == 'updated_at':
                         setattr(self, key, datetime.strptime(value,
-                                      '%Y-%m-%dT%H:%M:%S.%f'))
+                                                             time_format))
                     else:
                         setattr(self, key, value)
         else:

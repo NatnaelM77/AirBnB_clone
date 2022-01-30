@@ -8,8 +8,10 @@ import os
 import json
 from models.base_model import BaseModel
 
+
 class FileStorage:
     """Class FileStorage
+
        Attributes:
            __file_path (str): The name of the file
            __objects (dict): A dictionary of instantiated objects
