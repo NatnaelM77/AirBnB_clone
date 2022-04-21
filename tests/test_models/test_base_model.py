@@ -91,6 +91,7 @@ class TestBaseModel_save(unittest.TestCase):
 
     @classmethod
     def setUp(self):
+        self.bm = BaseModel()
         try:
             os.rename("file.json", "tmp")
         except IOError:
@@ -137,8 +138,9 @@ class TestBaseModel_save(unittest.TestCase):
         with open("file.json", "r") as f:
             self.assertIn(bmid, f.read())
 
-    def test_update_time(self):
-            self.updated_at = datetime.utcnow()
+    def test_save(self):
+        self.bm.save()
+        self.assertNotEqual(self.bm.updated_at, datetime.utcnow())
 
 
 class TestBaseModel_to_dict(unittest.TestCase):
